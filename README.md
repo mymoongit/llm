@@ -3,6 +3,10 @@ myllm
 
 git config --global credential.helper store
 
+# 清除
+git credential-manager reject https://github.com
+git credential-cache exit
+
 git remote -v
 
 git branch
