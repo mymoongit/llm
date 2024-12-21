@@ -11,6 +11,8 @@ git status
     git add .
         git commit -m 'modify2'
 
+git push origin main
+
 ===
 git fetch origin
 git checkout develop
